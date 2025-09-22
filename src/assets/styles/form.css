@@ -1,0 +1,94 @@
+.formContent {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contactSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 50px;
+  width: 100%;
+  background-color: #ffeded;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.contactSection a {
+  text-decoration: none;
+  color: #000000;
+}
+.formTitle {
+  margin: 87px 0 30px;
+}
+.contactForm,
+.contactInfo {
+  flex-basis: 24%;
+}
+.form,
+.contactItem,
+.quickItems,
+.activeSections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.form input,
+textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  margin: 5px;
+  padding: 5px 20px;
+}
+
+.footerSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 50px;
+  width: 100%;
+  height: 400px;
+  color: #fff;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footerContent {
+  position: absolute;
+  top: -25%; /* use -155% when the height of the footerSection class is set to auto.*/
+  left: 20%;
+  transform: translate(0%);
+  text-align: center;
+}
+.footerContent p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.companyName {
+  color: rgb(10, 87, 10);
+  text-transform: uppercase;
+}
+.submit-btn {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #433e3e;
+}
+@media (max-width: 620px) {
+  .contactSection {
+    font-size: 35px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .form input,
+  textarea {
+    font-size: 30px;
+  }
+  .footerContent {
+    top: -20%;
+    left: 8%;
+  }
+}

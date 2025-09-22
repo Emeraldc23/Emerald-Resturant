@@ -1,0 +1,160 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 20px 0;
+  margin: 10px 0;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1440px; /* clamp(900px, 80%, 1440px); */
+}
+.logoTitle {
+  font-weight: bold;
+  font-size: 30px;
+}
+.logoTitle .bizName {
+  color: #ff7e0d;
+}
+.logoDetails .changeColor {
+  color: #2555d2;
+}
+.logoTitle .services-red {
+  font-size: 11px;
+  color: #eb2d29;
+}
+.logoDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.logoDetails img {
+  width: 70px;
+  height: auto;
+  display: block;
+}
+.listItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.listItems li {
+  list-style: none;
+}
+
+.listItems li a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.listItems li a:focus,
+.listItems li a:active {
+  color: #d22525;
+}
+.listItems li:hover {
+  transform: scale(1.05);
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.btn-booking {
+  background-color: #d22525;
+  color: #ffffff;
+}
+.btn-booking:hover {
+  opacity: 0.7;
+}
+.menus,
+.menuClose {
+  display: none;
+}
+.mobile-btn {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .list {
+    gap: 9px;
+  }
+  .logoTitle .services-red {
+    display: none;
+  }
+}
+@media (max-width: 1050px) {
+  .menus {
+    position: fixed;
+    right: 30px;
+    display: block;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .menuClose {
+    display: block;
+    left: 80%;
+    top: 40px;
+    position: relative;
+    width: 30px;
+  }
+  .listItems {
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    padding: 20px 10px;
+    z-index: 2;
+    background: rgb(2, 51, 2);
+    width: 350px;
+    height: 100%;
+    transition: right 0.5s;
+    right: -500px;
+  }
+  .booking-ticket {
+    margin-right: 60px;
+  }
+  .listItems li a {
+    font-size: 30px;
+  }
+  .listItems li a:hover {
+    background-color: grey;
+    width: 100%;
+  }
+  .btn-booking {
+    font-size: 27px;
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    align-items: center;
+    text-align: center;
+  }
+
+  .listItems {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .logoTitle .bizName {
+    font-size: 40px;
+  }
+}
+@media (max-width: 520px) {
+  .desktop-btn {
+    display: none;
+  }
+  .mobile-btn {
+    display: block;
+  }
+}

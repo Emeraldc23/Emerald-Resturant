@@ -1,0 +1,387 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1440px; /*  clamp(900px, 80%, 1440px); */
+}
+.images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.mainImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 20/9;
+}
+
+.left,
+.right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.left {
+  left: 5%;
+}
+.right {
+  right: 5%;
+}
+
+/* === Auth section ===*/
+.container {
+  width: 100%;
+}
+.authSection {
+  background-image: url("../images/Rectangle 10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 200px;
+  color: #ffff;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.curbText {
+  font-size: 24px;
+  font-weight: 600;
+}
+.btn-pickUp {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/*==== STORES SECTION ====*/
+
+.stores {
+  width: 100%;
+}
+.storeSection {
+  background-image: url("../images/Rectangle 12.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: auto;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+}
+.flexUpperItems {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+.storeText {
+  flex-basis: 50%;
+  width: 100%;
+  height: auto;
+}
+.storeImg {
+  width: 100%;
+  max-width: 450px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.storiesTitle {
+  color: #d22525;
+  font-weight: bold;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+hr {
+  width: 100px;
+  height: 6px;
+  background-color: #000;
+  margin-bottom: 10px;
+}
+.stories {
+  color: #353131;
+  line-height: 2;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.btn-know {
+  background-color: rgba(0, 0, 0, 0.77);
+  text-transform: uppercase;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 26px 66px;
+}
+.flexLowerItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+}
+
+/* .flexLowerItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+} */
+.fork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgLogo {
+  width: 180px;
+}
+.increaseSize {
+  width: 250px;
+}
+.logoBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.uber {
+  color: #2555d2;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.eats {
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.support {
+  letter-spacing: 4px;
+  font-size: 20px;
+  color: #d22525;
+  font-weight: 600;
+}
+.packageSection {
+  width: 100%;
+  position: relative;
+}
+.white-hr {
+  background-color: #fff;
+  width: 248px;
+}
+.bgPackage {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  position: relative;
+}
+.packageImages {
+  flex: 1 1 auto;
+  width: 480px;
+  object-fit: cover;
+  aspect-ratio: 5/8;
+}
+.packageContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.packages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+  width: 100%;
+}
+.contentImg {
+  width: 350px;
+  height: auto;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+.packageText {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.btn-packages {
+  background-color: #ead7d7;
+  color: #363030;
+  padding: 24px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* === OUR MENU ===*/
+
+.ourMenu {
+  background-image: url("../images/Rectangle 24.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+.containerMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 0 60px;
+}
+.main-menu-title {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #d22525;
+}
+.menuContent {
+  color: #fff;
+  letter-spacing: 6%;
+  line-height: 1.5;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  padding: 40px 116px 152px 60px;
+}
+
+/* Emerald Resturant card*/
+.emeraldCard {
+  background-image: url("../images/Rectangle 27.png");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 18/8;
+  width: 100%;
+  height: auto;
+}
+.emerald-card-container {
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-style: italic;
+  background-color: #f0b41c;
+  padding: 25px;
+  /*  max-width: 400px;
+  width: 100%; */
+  position: absolute;
+  top: 7%;
+  left: 3%;
+  border-radius: 5px;
+  transform: translate(-5%, 3%);
+}
+
+/* ==== MAP SECTION ====*/
+.mapIntro {
+  background-image: url("../images/Rectangle 32.png");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 32/10;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 50px 0 0;
+}
+.maptext {
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 6px;
+  color: #e95050;
+}
+.mapaddress {
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .flexUpperItems {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .storeSection {
+    height: auto; /* let content define height */
+    padding: 20px;
+  }
+
+  .packageImages {
+    max-width: 90%;
+  }
+  .left,
+  .right {
+    width: 60px;
+    height: 90px;
+  }
+  .curbText {
+    font-size: 35px;
+  }
+  .btn-pickUp,
+  .btn-packages,
+  .btn-know {
+    font-size: 35px;
+  }
+  .storeText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  /*   .storiesTitle {
+    font-size: 50px;
+  } */
+  .stories {
+    font-size: 40px;
+  }
+  .mapIntro {
+    padding: 20px;
+    text-align: center;
+  }
+  .maptext {
+    font-size: 4rem;
+  }
+  .mapaddress {
+    font-size: 60px;
+  }
+}
+@media (max-width: 350px) {
+  .emerald-card-container {
+    font-size: 30px;
+  }
+}

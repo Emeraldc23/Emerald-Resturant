@@ -1,0 +1,89 @@
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.menu-image-container {
+  margin-bottom: 100px;
+}
+.menu-image-container h1 {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  z-index: 10;
+}
+.menuImg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.menus {
+  min-height: 100vh;
+}
+.menuImgSections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+.menuImg2 {
+  width: 1000px;
+}
+
+/* === FOOD ALLERGY SECTION === */
+
+.menuSection2 {
+  margin-bottom: 30px;
+  width: 100%;
+}
+.food-allergy {
+  background-image: url("../images/menuImages/Rectangle 47.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  color: #fff;
+  text-align: center;
+  padding: 20px 25px;
+}
+.food-allergy h2 {
+  margin: 50px 0 20px;
+}
+.food-allergy p {
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+/* === PRIYA SECTION === */
+.menuSection3 {
+  margin-bottom: 50px;
+}
+.priya {
+  background-image: url("../images/menuImages/Rectangle 471.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  color: #000;
+  text-align: center;
+  padding: 30px 35px;
+}
+.priya p {
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.priya h2 {
+  font-size: 30px;
+  font-weight: 800;
+}

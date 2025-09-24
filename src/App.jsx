@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Form from "./UtilisComponent/Form";
 import MainPage from "./components/Main";
 import MenuPage from "./components/Menu";
+import BanquetFacility from "./components/Banquet";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/menu" element={<MenuPage />} />
+            <Route path="/banquet" element={<BanquetFacility />} />
           </Routes>
         </BrowserRouter>
 

@@ -52,7 +52,7 @@ export default function Header() {
             <Link to="/menu">MENU</Link>
           </li>
           <li>
-            <Link to="/banquest">BANQUEST FACILITY</Link>
+            <Link to="/banquet">BANQUEST FACILITY</Link>
           </li>
           <li>
             <Link to="/gallery">GALLERY</Link>

@@ -57,7 +57,7 @@ textarea {
 .footerContent {
   position: absolute;
   top: -25%; /* use -155% when the height of the footerSection class is set to auto.*/
-  left: 20%;
+  left: 18%;
   transform: translate(0%);
   text-align: center;
 }

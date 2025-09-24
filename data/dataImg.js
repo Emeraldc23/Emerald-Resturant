@@ -12,18 +12,18 @@ import img12 from "../data/dataImg/Rectangle 84.png";
 import img13 from "../data/dataImg/Rectangle 85.png";
 
 const images = [
-  { image: img2, url: "" },
-  { image: img3, url: "" },
-  { image: img4, url: "" },
-  { image: img5, url: "" },
-  { image: img6, url: "" },
-  { image: img7, url: "" },
-  { image: img8, url: "" },
-  { image: img9, url: "" },
-  { image: img10, url: "" },
-  { image: img11, url: "" },
-  { image: img12, url: "" },
-  { image: img13, url: "" },
+  { image: img2, url: "/vendor" },
+  { image: img3, url: "/vendor" },
+  { image: img4, url: "/vendor" },
+  { image: img5, url: "/vendor" },
+  { image: img6, url: "/vendor" },
+  { image: img7, url: "/vendor" },
+  { image: img8, url: "/vendor" },
+  { image: img9, url: "/vendor" },
+  { image: img10, url: "/vendor" },
+  { image: img11, url: "/vendor" },
+  { image: img12, url: "/vendor" },
+  { image: img13, url: "/vendor" },
 ];
 
 export default images;

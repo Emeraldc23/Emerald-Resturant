@@ -1,8 +1,13 @@
 import "../assets/styles/banquet.css";
 import images from "../../data/dataImg";
 import banquet from "../assets/images/Banquet.png";
+import Vendor from "./Vendor";
+import { Link } from "react-router-dom";
 
 export default function BanquetFacility() {
+  function handleClick() {
+    console.log("image clicked");
+  }
   return (
     <main className="banquet">
       <div className="banquet-image-container">
@@ -28,7 +33,11 @@ export default function BanquetFacility() {
       </div>
       <div className="banquetImages">
         {images.map((imgs) => (
-          <img src={imgs.image} alt="" className="gridImg" onClick={imgs.url} />
+          <>
+            <a href={imgs.url} target="_blank">
+              <img src={imgs.image} alt="" className="gridImg" />
+            </a>
+          </>
         ))}
       </div>
       <div className="imgBtns">

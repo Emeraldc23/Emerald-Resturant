@@ -59,17 +59,17 @@
 }
 /* === BANQUET IMAGES === */
 .banquetImages {
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin: 0 auto;
 }
 
 .gridImg {
-  width: 300px;
+  width: 200px;
   cursor: pointer;
 }
 .imgBtns {
-  margin-bottom: 30px;
+  margin: 20px 0 30px;
 }

@@ -36,7 +36,7 @@ export default function Header() {
           <p className="services-red">RESTURENT/CATERING/BANQUET</p>
         </div>
       </div>
-      <img src={menuOpen} alt="" onClick={openMenu} className="menus" />
+      <img src={menuOpen} alt="" onClick={openMenu} className="menuOpen" />
       <div className="list">
         <ul ref={menuRef} className="listItems">
           <img

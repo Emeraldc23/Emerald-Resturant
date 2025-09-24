@@ -4,7 +4,6 @@ import menuImage2 from "../assets/images/menuImages/Rectangle 42.png";
 import menuImage3 from "../assets/images/menuImages/Rectangle 43.png";
 import menuImage4 from "../assets/images/menuImages/Rectangle 44.png";
 import vector from "../assets/images/menuImages/vector.png";
-import menuImage6 from "../assets/images/menuImages/Rectangle 471.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import ButtonComp from "./reuseableCom/Button";
@@ -55,6 +54,10 @@ export default function MenuPage() {
           <img src={vector} alt="" />
         </div>
       </section>
+      <div className="menuDots">
+        <div className="lightDot"></div>
+        <div className="darkDot"></div>
+      </div>
       <section className="menuSection3">
         <div className="priya">
           <p>
@@ -68,6 +71,10 @@ export default function MenuPage() {
           <h2>Priya</h2>
         </div>
       </section>
+      <div className="menuDots">
+        <div className="lightDot"></div>
+        <div className="darkDot"></div>
+      </div>
     </main>
   );
 }

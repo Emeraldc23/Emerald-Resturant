@@ -76,7 +76,7 @@ header {
 .btn-booking:hover {
   opacity: 0.7;
 }
-.menus,
+.menuOpen,
 .menuClose {
   display: none;
 }
@@ -92,7 +92,7 @@ header {
   }
 }
 @media (max-width: 1050px) {
-  .menus {
+  .menuOpen {
     position: fixed;
     right: 30px;
     display: block;

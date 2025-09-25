@@ -120,6 +120,8 @@ header {
     height: 100%;
     transition: right 0.5s;
     right: -500px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
   }
   .booking-ticket {
     margin-right: 60px;

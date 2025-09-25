@@ -1,0 +1,11 @@
+.dotsCreator {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.dotSpan {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}

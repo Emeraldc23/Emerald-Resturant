@@ -26,3 +26,47 @@
   font-size: 50px;
   z-index: 10;
 }
+
+/*=== GALLERY IMAGES ===*/
+.gallerySection {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.gImages {
+  width: 200px;
+}
+.vendorSection {
+  margin-bottom: 50px;
+}
+.vendorPriya {
+  background-image: url("../images/menuImages/Rectangle 471.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  color: #000;
+  text-align: center;
+  padding: 30px 35px;
+}
+
+.venderDots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 20px 0;
+}
+.small {
+  width: 17px;
+  height: 17px;
+  background: #000;
+  border-radius: 50%;
+}
+.medium {
+  width: 23px;
+  height: 23px;
+  background: #000;
+  border-radius: 50%;
+}
